@@ -12,6 +12,10 @@ object pepita {
 	method energia() {
 		return energia
 	}
+
+	method estaCansada() {
+	  return energia < 30
+	}
 }
 
 object alpiste {
